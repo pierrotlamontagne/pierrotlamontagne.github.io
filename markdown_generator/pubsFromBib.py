@@ -26,21 +26,13 @@ import re
 
 #todo: incorporate different collection types rather than a catch all publications, requires other changes to template
 publist = {
-    "proceeding": {
-        "file" : "proceedings.bib",
-        "venuekey": "booktitle",
-        "venue-pretext": "In the proceedings of ",
-        "collection" : {"name":"publications",
-                        "permalink":"/publication/"}
-        
-    },
     "journal":{
         "file": "pubs.bib",
         "venuekey" : "journal",
         "venue-pretext" : "",
         "collection" : {"name":"publications",
                         "permalink":"/publication/"}
-    } 
+    }
 }
 
 html_escape_table = {
@@ -65,7 +57,8 @@ for pubsource in publist:
         pub_month = "01"
         pub_day = "01"
         
-        b = bibdata.entries[bib_id].fields
+        entry = bibdata.entries[bib_id]
+        b = entry.fields
         
         try:
             pub_year = f'{b["year"]}'
@@ -99,14 +92,29 @@ for pubsource in publist:
             citation = ""
 
             #citation authors - todo - add highlighting for primary author?
-            for author in bibdata.entries[bib_id].persons["author"]:
-                citation = citation+" "+author.first_names[0]+" "+author.last_names[0]+", "
+            for author in entry.persons["author"]:
+                author_parts = author.first_names + author.middle_names + author.last_names
+                author_name = " ".join([p for p in author_parts if p])
+                if not author_name.strip():
+                    author_name = str(author)
+                citation = citation + " " + author_name + ", "
 
             #citation title
             citation = citation + "\"" + html_escape(b["title"].replace("{", "").replace("}","").replace("\\","")) + ".\""
 
             #add venue logic depending on citation type
-            venue = publist[pubsource]["venue-pretext"]+b[publist[pubsource]["venuekey"]].replace("{", "").replace("}","").replace("\\","")
+            if "journal" in b.keys():
+                venue = b["journal"]
+            elif "booktitle" in b.keys():
+                venue = "In the proceedings of " + b["booktitle"]
+            elif "publisher" in b.keys():
+                venue = b["publisher"]
+            else:
+                if entry.type in ["phdthesis", "mastersthesis", "thesis"]:
+                    venue = "Thesis"
+                else:
+                    venue = "Manuscript"
+            venue = venue.replace("{", "").replace("}","").replace("\\","")
 
             citation = citation + " " + html_escape(venue)
             citation = citation + ", " + pub_year + "."

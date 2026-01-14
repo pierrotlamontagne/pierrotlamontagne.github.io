@@ -9,37 +9,50 @@ redirect_from:
 
 {% include base_path %}
 
+Download
+======
+* [Academic CV](/files/Academic_CV.pdf)
+* [Publication list](/files/Publication%20list.pdf)
+* [Statement of research](/files/Statement%20of%20research.pdf)
+* [Thesis abstract](/files/Thesis%20abstract.pdf)
+* [Cover letter](/files/Cover%20letter.pdf)
+
+Contact
+======
+* Email (Universite de Montreal): [pierrot.lamontagne@umontreal.ca](mailto:pierrot.lamontagne@umontreal.ca)
+* Email (IAA-CSIC): [lamontagne@iaa.csic.es](mailto:lamontagne@iaa.csic.es)
+
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* M.Sc. in Astrophysics, Universite de Montreal, 2023-2025  
+  * Supervisor: Prof. David Lafreniere  
+  * Thesis: *Analyse conjointe des vitesses radiales de HARPS et NIRPS : une application sur le systeme GJ 3090*
 
-Work experience
+Research experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* M.Sc. Researcher, Trottier Institute for Research on Exoplanets (iREx), Universite de Montreal  
+  * Joint analysis of HARPS and NIRPS radial velocities in the GJ 3090 system  
+  * Activity-aware modeling to detect planets in the presence of stellar variability  
+  * Mass and density refinement for GJ 3090 b; confirmation of GJ 3090 c
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Research internships, iREx  
+  * JWST/NIRISS instrument simulator development  
+  * Follow-up of exoplanet candidates with the Dragonfly telescope
   
+Awards
+======
+* Hubert Reeves scholarship (2023)
+
+Outreach
+======
+* ASTROLab (Mont-Megantic) guide-animateur  
+* Mentoring and outreach activities for secondary and CEGEP students
+
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Radial-velocity data analysis and time-series modeling
+* Statistical inference for exoplanet detection and characterization
+* High-precision spectroscopy (HARPS, NIRPS)
 
 Publications
 ======
@@ -61,4 +74,4 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* TBD
