@@ -6,6 +6,10 @@ author_profile: true
 
 My research focuses on detecting and characterizing exoplanets using high-precision radial-velocity (RV) spectroscopy, with an emphasis on careful treatment of stellar activity and instrument systematics. I work at the intersection of observation, inference, and interpretation, connecting measured masses and radii to internal composition and formation pathways.
 
+Current PhD (THIRSTEE, IAA-CSIC)
+======
+I am a PhD student at the Instituto de Astrofisica de Andalucia (IAA-CSIC) in Granada, Spain, working within the THIRSTEE project (PI: Rafael Luque). THIRSTEE is an ERC Starting Grant focused on sub-Neptune planets, combining precise mass/radius measurements with atmospheric characterization (including JWST) to understand their composition, formation, and evolution.
+
 Research themes
 ======
 * **Joint RV analysis across instruments.** Combining HARPS and NIRPS RVs to improve mass precision and orbital solutions.

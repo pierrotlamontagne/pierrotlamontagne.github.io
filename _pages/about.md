@@ -9,7 +9,15 @@ redirect_from:
 
 I am an exoplanet researcher focused on radial-velocity analysis, activity modeling, and planet characterization. My work combines high-precision spectroscopy with statistical inference to measure planet masses, disentangle stellar signals, and connect those measurements to composition and formation.
 
-My M.Sc. research at the Université de Montréal and the Trottier Institute for Research on Exoplanets (iREx), supervised by Prof. David Lafrenière, centered on the GJ 3090 system. By combining HARPS and NIRPS radial velocities, I refined the mass and density of GJ 3090 b and confirmed a non-transiting sub-Neptune, GJ 3090 c, despite its orbital period being close to the star's rotation period. The analysis uses advanced modeling to separate planetary signals from stellar activity, enabling robust characterization in challenging datasets. A summary of this work appears in my [thesis-in-400-words](https://exoplanetes.umontreal.ca/en/my-thesis-in-400-words-pierrot-lamontagne/) profile.
+I am currently a PhD student at the Instituto de Astrofisica de Andalucia (IAA-CSIC) in Granada, Spain, within the THIRSTEE project under the supervision of Rafael Luque. THIRSTEE (an ERC Starting Grant) targets sub-Neptunes, combining precise masses and radii with atmospheric follow-up (including JWST) to understand their composition and formation pathways.
+
+![IAA-CSIC logo](/images/IAA-CSIC_logo.png)
+
+My M.Sc. research at the Université de Montréal and the Trottier Institute for Research on Exoplanets (iREx), supervised by Prof. David Lafrenière, centered on the GJ 3090 system. I was also part of the NIRPS consortium. By combining HARPS and NIRPS radial velocities, I refined the mass and density of GJ 3090 b and confirmed a non-transiting sub-Neptune, GJ 3090 c, despite its orbital period being close to the star's rotation period. The analysis uses advanced modeling to separate planetary signals from stellar activity, enabling robust characterization in challenging datasets. This work is summarized in my [arXiv paper on the GJ 3090 system](https://doi.org/10.48550/arXiv.2601.09330). I completed this work within iREx.
+
+![iREx logo](/images/irex_logo.png)
+
+![Observing for NIRPS at La Silla](/images/me_at_la_silla.jpg)
 
 I have also contributed to instrumentation and follow-up efforts, including work on the JWST/NIRISS simulator and the Dragonfly telescope follow-up program, and I remain active in science outreach.
 
@@ -23,6 +31,4 @@ Contact
 Documents
 ======
 * [Academic CV](/files/Academic_CV.pdf)
-* [Statement of research](/files/Statement%20of%20research.pdf)
-* [Thesis abstract](/files/Thesis%20abstract.pdf)
-* [Cover letter](/files/Cover%20letter.pdf)
+* [Publication list](/files/Publication%20list.pdf)

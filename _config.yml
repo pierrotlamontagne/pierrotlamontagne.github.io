@@ -26,9 +26,9 @@ author:
   avatar           : "profile.jpg"
   name             : "Pierrot Lamontagne"
   pronouns         : # example: "she/her"  
-  bio              : "Exoplanet researcher working on radial-velocity analysis, activity modeling, and planet characterization."
-  location         : "Montreal, QC, Canada"
-  employer         : "Université de Montréal / iREx"
+  bio              : "PhD researcher at IAA-CSIC (Granada) studying exoplanets via radial velocities, activity modeling, and planet characterization."
+  location         : "Granada, Spain"
+  employer         : "IAA-CSIC"
   uri              : "https://pierrotlamontagne.github.io"
   email            : "pierrot.lamontagne@umontreal.ca"
 

@@ -14,14 +14,11 @@ main:
   - title: "Research"
     url: /research/
 
-  - title: "Outreach"
-    url: /outreach/
-
   - title: "Publications"
     url: /publications/
 
-  - title: "CV"
-    url: /cv/
-
   - title: "Talks"
     url: /talks/
+
+  - title: "Outreach"
+    url: /outreach/
