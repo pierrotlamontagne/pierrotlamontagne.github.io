@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 
-<img src="/images/me_at_la_silla.jpg" alt="Observing for NIRPS at La Silla" style="float: right; width: 300px; margin-left: 20px; margin-bottom: 20px; margin-top: 20px">
+<img src="/images/me_at_la_silla.jpg" alt="Observing for NIRPS at La Silla" style="float: right; width: 300px; margin-left: 20px; margin-bottom: 20px; margin-top: 40px; border: 4px solid #ddd; padding: 8px; background-color: #fff; box-shadow: 0 4px 8px rgba(0,0,0,0.1), 0 2px 4px rgba(0,0,0,0.06); border-radius: 4px;">
 
 Hi! I am a PhD student at the [Instituto de Astrofisica de Andalucia (IAA-CSIC)](https://www.iaa.csic.es/) in Granada, Spain, within the ERC-funded THIRSTEE project under the supervision of [Rafael Luque](https://exoplanet.observer/). THIRSTEE targets sub-Neptunes, combining precise masses and radii with atmospheric follow-up to understand their composition and formation pathways. My specific research focuses on radial-velocity analysis and stellar-activity modelling to obtain very precise mass measurements for these exoplanets, thereby fulfilling the goals of THIRSTEE.
 
