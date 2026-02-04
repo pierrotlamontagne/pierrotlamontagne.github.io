@@ -8,7 +8,7 @@
 
 {% comment %} Decode HTML entities for display (no backslash escapes to avoid GitHub Pages Liquid issues) {% endcomment %}
 {% assign authors_display = post.authors_short | default: post.citation %}
-{% assign authors_display = authors_display | replace: ", ... Pierrot Lamontagne", ", __PLACEHOLDER_DOTS__ Pierrot Lamontagne" %}
+{% assign authors_display = authors_display | replace: ", ... Pierrot Lamontagne", ", __PLACEHOLDER_DOTS__, Pierrot Lamontagne" %}
 {% assign authors_display = authors_display | replace: "...", "et al." | replace: "others", "et al." %}
 {% assign authors_display = authors_display | replace: "__PLACEHOLDER_DOTS__", "..." %}
 {% assign authors_display = authors_display | replace: "&amp;", "&" | replace: '&quot;', '"' %}
@@ -26,6 +26,7 @@
 {% assign authors_display = authors_display | replace: "Jonathan Gagn{\&apos;e}", "Jonathan Gagné" %}
 {% assign authors_display = authors_display | replace: "F{\&apos;e}lix", "Félix" | replace: "T{\&apos;e}mich", "Témich" %}
 {% assign authors_display = authors_display | replace: "S{\&apos;e}bastien", "Sébastien" | replace: "Jean-S{\&apos;e}bastien", "Jean-Sébastien" %}
+{% assign authors_display = authors_display | replace: "Pierrot Lamontagne", "<span style=\"font-weight: bold;\">Pierrot Lamontagne</span>" %}
 
 <div class="{{ include.type | default: 'list' }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
@@ -40,7 +41,7 @@
     </h2>
 
     <p>
-      {{ authors_display }} &mdash; <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}
+      {{ authors_display | raw }} &mdash; <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}
     </p>
 
     {% if post.biburl %}
