@@ -26,7 +26,7 @@
 {% assign authors_display = authors_display | replace: "Jonathan Gagn{\&apos;e}", "Jonathan Gagné" %}
 {% assign authors_display = authors_display | replace: "F{\&apos;e}lix", "Félix" | replace: "T{\&apos;e}mich", "Témich" %}
 {% assign authors_display = authors_display | replace: "S{\&apos;e}bastien", "Sébastien" | replace: "Jean-S{\&apos;e}bastien", "Jean-Sébastien" %}
-{% assign authors_display = authors_display | replace: "Pierrot Lamontagne", "<span style=\"font-weight: bold;\">Pierrot Lamontagne</span>" %}
+{% assign authors_display = authors_display | replace: "Pierrot Lamontagne", "__AUTHOR_NAME__" %}
 
 <div class="{{ include.type | default: 'list' }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
@@ -41,7 +41,12 @@
     </h2>
 
     <p>
-      {{ authors_display | raw }} &mdash; <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}
+      {% assign author_parts = authors_display | split: "__AUTHOR_NAME__" %}
+      {% if author_parts.size > 1 %}
+        {{ author_parts[0] }}<strong>Pierrot Lamontagne</strong>{{ author_parts[1] }} &mdash; <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}
+      {% else %}
+        {{ authors_display }} &mdash; <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}
+      {% endif %}
     </p>
 
     {% if post.biburl %}
