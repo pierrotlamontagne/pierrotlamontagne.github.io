@@ -1,6 +1,7 @@
 /* Custom astronomical styling */
 
-body {
+/* Dark mode: custom dark blue background with starfield effect */
+html[data-theme="dark"] body {
   background-color: #05070f;
   background-image:
     radial-gradient(circle at 15% 20%, rgba(255, 255, 255, 0.06) 0 1px, transparent 1px),
@@ -11,14 +12,29 @@ body {
   background-attachment: fixed;
 }
 
-.masthead {
+/* Light mode: use theme background */
+html:not([data-theme="dark"]) body {
+  background-color: var(--global-bg-color);
+  background-image: none;
+}
+
+html[data-theme="dark"] .masthead {
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
 }
 
-.page__footer {
+html:not([data-theme="dark"]) .masthead {
+  border-bottom: 1px solid var(--global-border-color);
+}
+
+html[data-theme="dark"] .page__footer {
   background-color: rgba(3, 5, 12, 0.95);
   border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+html:not([data-theme="dark"]) .page__footer {
+  background-color: var(--global-footer-bg-color);
+  border-top: 1px solid var(--global-border-color);
 }
 
 a {
