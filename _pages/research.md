@@ -4,6 +4,12 @@ permalink: /research/
 author_profile: true
 ---
 
+
+<video autoplay loop muted playsinline style="width: 100%; max-width: 800px; margin: 0 auto 2em; display: block; border-radius: 8px;">
+  <source src="/images/PlanetPlusActivity.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 My research focuses on detecting and characterizing exoplanets using high-precision radial-velocity (RV) spectroscopy, with an emphasis on careful treatment of stellar activity and instrument systematics. I work at the intersection of observation, inference, and interpretation, connecting measured masses and radii to internal composition and formation pathways.
 
 Current PhD (THIRSTEE, IAA-CSIC)
