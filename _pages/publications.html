@@ -9,12 +9,10 @@ author_profile: true
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
-<p>The list below includes co-authored publications and my M.Sc. thesis. For a complete list, please use the Google Scholar link above.</p>
-
 {% include base_path %}
 
 {% for post in site.publications reversed %}
-  {% include archive-single.html %}
+  {% include archive-single-publication.html %}
 {% endfor %}
 
 
