@@ -6,33 +6,17 @@
   {% assign title = post.title %}
 {% endif %}
 
-{% comment %} Decode common BibTeX/HTML entities for display {% endcomment %}
+{% comment %} Decode HTML entities for display (no backslash escapes to avoid GitHub Pages Liquid issues) {% endcomment %}
 {% assign authors_display = post.authors_short | default: post.citation %}
-{% assign authors_display = authors_display | replace: "{\'e}", "é" | replace: "{\\'e}", "é" %}
-{% assign authors_display = authors_display | replace: "{\`e}", "è" | replace: "{\\`e}", "è" %}
-{% assign authors_display = authors_display | replace: "{\"o}", "ö" | replace: "{\\\"o}", "ö" %}
-{% assign authors_display = authors_display | replace: "{\"a}", "ä" | replace: "{\\\"a}", "ä" %}
-{% assign authors_display = authors_display | replace: "{\~a}", "ã" | replace: "{\\~a}", "ã" %}
-{% assign authors_display = authors_display | replace: "{\~n}", "ñ" | replace: "{\\~n}", "ñ" %}
-{% assign authors_display = authors_display | replace: "{\'a}", "á" | replace: "{\\'a}", "á" %}
-{% assign authors_display = authors_display | replace: "{\'i}", "í" | replace: "{\\'i}", "í" %}
-{% assign authors_display = authors_display | replace: "{\'o}", "ó" | replace: "{\\'o}", "ó" %}
-{% assign authors_display = authors_display | replace: "{\'u}", "ú" | replace: "{\\'u}", "ú" %}
-{% assign authors_display = authors_display | replace: "{\c c}", "ç" | replace: "{\\c c}", "ç" %}
-{% assign authors_display = authors_display | replace: "{\"i}", "ï" | replace: "{\\\"i}", "ï" %}
-{% assign authors_display = authors_display | replace: "&amp;", "&" | replace: "&quot;", "\"" %}
-{% assign authors_display = authors_display | replace: "{\&apos;e}", "é" | replace: "{\&apos;a}", "á" %}
-{% assign authors_display = authors_display | replace: "{\&apos;i}", "í" | replace: "{\&apos;o}", "ó" %}
-{% assign authors_display = authors_display | replace: "{\&apos;u}", "ú" | replace: "L{\&apos;e}na", "Léna" %}
-{% assign authors_display = authors_display | replace: "Fran{\c{c}}ois", "François" | replace: "Ren{\&apos;e}", "René" | replace: "Ren{\'e}", "René" | replace: "Ren{\\'e}", "René" %}
-{% assign authors_display = authors_display | replace: "{\'E}tienne", "Étienne" | replace: "Fr{\&apos;e}d{\&apos;e}rique", "Frédérique" %}
+{% assign authors_display = authors_display | replace: "&amp;", "&" | replace: '&quot;', '"' %}
+{% assign authors_display = authors_display | replace: "{\&apos;e}", "é" | replace: "{\&apos;a}", "á" | replace: "{\&apos;i}", "í" | replace: "{\&apos;o}", "ó" | replace: "{\&apos;u}", "ú" %}
+{% assign authors_display = authors_display | replace: "L{\&apos;e}na", "Léna" | replace: "Fran{\c{c}}ois", "François" | replace: "Ren{\&apos;e}", "René" %}
+{% assign authors_display = authors_display | replace: "{\&apos;E}tienne", "Étienne" | replace: "Fr{\&apos;e}d{\&apos;e}rique", "Frédérique" %}
 {% assign authors_display = authors_display | replace: "Jonay I. Gonz{\&apos;a}lez Hern{\&apos;a}ndez", "Jonay I. González Hernández" %}
-{% assign authors_display = authors_display | replace: "Damien S{\&apos;e}gransan", "Damien Ségransan" %}
-{% assign authors_display = authors_display | replace: "St{\&apos;e}phane", "Stéphane" | replace: "Jos{\&apos;e}", "José" %}
-{% assign authors_display = authors_display | replace: "David Lafreni{\`e}re", "David Lafrenière" | replace: "N{\&apos;e}stor", "Néstor" %}
-{% assign authors_display = authors_display | replace: "Andr{\&apos;e}", "André" | replace: "Lo{\&quot;\\i}c", "Loïc" %}
-{% assign authors_display = authors_display | replace: "Mascare{\~n}o", "Mascareño" | replace: "Su{\&apos;a}rez", "Suárez" %}
-{% assign authors_display = authors_display | replace: "Le{\~a}o", "Leão" | replace: "Jo{\~a}o", "João" %}
+{% assign authors_display = authors_display | replace: "Damien S{\&apos;e}gransan", "Damien Ségransan" | replace: "St{\&apos;e}phane", "Stéphane" | replace: "Jos{\&apos;e}", "José" %}
+{% assign authors_display = authors_display | replace: "David Lafreni{\`e}re", "David Lafrenière" | replace: "N{\&apos;e}stor", "Néstor" | replace: "Andr{\&apos;e}", "André" %}
+{% assign authors_display = authors_display | replace: "Lo{\&quot;i}c", "Loïc" %}
+{% assign authors_display = authors_display | replace: "Su{\&apos;a}rez", "Suárez" %}
 {% assign authors_display = authors_display | replace: "G{\&apos;e}rard", "Gérard" | replace: "C{\&apos;e}line", "Céline" %}
 {% assign authors_display = authors_display | replace: "Philippe Vall{\&apos;e}e", "Philippe Vallée" | replace: "M{\&apos;a}rcio", "Márcio" %}
 {% assign authors_display = authors_display | replace: "Bj{\&quot;o}rn", "Björn" | replace: "K{\&quot;a}ufl", "Käufl" %}
