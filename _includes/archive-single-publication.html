@@ -41,14 +41,10 @@
       {{ authors_display }} &mdash; <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}
     </p>
 
+    {% if post.biburl %}
     <p>
-      {% if post.paperurl %}
-        <a href="{{ post.paperurl }}" target="_blank" rel="noopener">Paper</a>
-      {% endif %}
-      {% if post.paperurl and post.biburl %} | {% endif %}
-      {% if post.biburl %}
-        <a href="{{ base_path }}{{ post.biburl }}" target="_blank" rel="noopener">BibTeX</a>
-      {% endif %}
+      <a href="{{ base_path }}{{ post.biburl }}" target="_blank" rel="noopener">BibTeX</a>
     </p>
+    {% endif %}
   </article>
 </div>
