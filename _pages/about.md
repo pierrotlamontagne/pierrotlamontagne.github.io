@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-![Observing for NIRPS at La Silla](/images/me_at_la_silla.jpg)
+<img src="/images/me_at_la_silla.jpg" alt="Observing for NIRPS at La Silla" style="float: right; width: 300px; margin-left: 20px; margin-bottom: 20px;">
 
 Hi! I am a PhD student at the [Instituto de Astrofisica de Andalucia (IAA-CSIC)](https://www.iaa.csic.es/) in Granada, Spain, within the ERC-funded THIRSTEE project under the supervision of [Rafael Luque](https://exoplanet.observer/). THIRSTEE targets sub-Neptunes, combining precise masses and radii with atmospheric follow-up to understand their composition and formation pathways. My specific research focuses on radial-velocity analysis and stellar-activity modelling to obtain very precise mass measurements for these exoplanets, thereby fulfilling the goals of THIRSTEE.
 
@@ -19,6 +19,8 @@ During my undergrad, I also did an internship at iREx in which I worked on the [
 
 If you would like to collaborate, please reach out via [LinkedIn](https://www.linkedin.com/in/pierrot-lamontagne-68a2611b9/) or see my work on [GitHub](https://github.com/pierrotlamontagne/). Selected publications are listed on my [Google Scholar profile](https://scholar.google.com/citations?user=7Tjk43EAAAAJ&hl=fr).
 
+![THIRSTEE logo](/images/THIRSTEE_logo_extended_negative.png)
+
 Contact
 ======
 * Email (IAA-CSIC): [lamontagne@iaa.es](mailto:lamontagne@iaa.es)
@@ -27,4 +29,3 @@ Documents
 ======
 * [Academic CV](/files/Academic_CV.pdf)
 
-![THIRSTEE logo](/images/THIRSTEE_logo_extended_negative.png)
