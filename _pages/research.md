@@ -53,7 +53,7 @@ Stars are not perfect spheres of light. **Dark spots** rotating across the surfa
 
 ---
 
-In real data, we often see **both** a planet and stellar activity at the same time.
+In real data, we often see **both** planets and stellar activity at the same time.
 
 <video autoplay loop muted playsinline style="width: 100%; max-width: 900px; margin: 1.5em auto; display: block; border-radius: 8px;">
   <source src="/images/PlanetPlusActivity.mp4" type="video/mp4">
