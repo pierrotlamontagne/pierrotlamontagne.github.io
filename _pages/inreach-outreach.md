@@ -30,7 +30,7 @@ author_profile: true
 <p><strong>2024</strong> — <strong>Science popularization training for researchers.</strong> On two occasions (2022 and 2024), gave popular science training to researchers at Université de Montréal on how to show the night sky to the general public during the Perseid meteor shower.</p>
 
 <div style="margin-bottom: 1.8em;">
-<p><strong>2021–2023</strong> — <strong>Astronomy guide and educator.</strong> Sépaq (contract, full-time). Guide-educator at ASTROLab (Mont‑Mégantic), an astronomy outreach centre. Led educational activities for diverse audiences: guided tours, astronomy workshops, multimedia presentations, and night-time sky observations.</p>
+<p><strong>2021–2023</strong> — <strong>Astronomy guide and educator.</strong> Sépaq. Guide-educator at ASTROLab (Mont‑Mégantic), an astronomy outreach centre. Led educational activities for diverse audiences: guided tours, astronomy workshops, multimedia presentations, and night-time sky observations.</p>
 <div style="display: flex; gap: 16px; flex-wrap: wrap; margin-top: 1em; align-items: flex-start;">
 <img src="/images/pierrot_a_lastrolab.jpeg" alt="At ASTROLab, Mont-Mégantic" style="width: auto; height: auto; max-width: 48%; border: 3px solid #ddd; padding: 6px; background-color: #fff; box-shadow: 0 4px 10px rgba(0,0,0,0.1); border-radius: 6px;">
 <img src="/images/Pierrot_en_uniforme_SEPAQ.png" alt="In Sépaq uniform at ASTROLab" style="width: auto; height: auto; max-width: 48%; border: 3px solid #ddd; padding: 6px; background-color: #fff; box-shadow: 0 4px 10px rgba(0,0,0,0.1); border-radius: 6px;">
