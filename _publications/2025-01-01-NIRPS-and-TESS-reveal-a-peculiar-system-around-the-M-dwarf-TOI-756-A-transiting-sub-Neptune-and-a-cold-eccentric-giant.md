@@ -2,7 +2,7 @@
 title: "NIRPS and TESS reveal a peculiar system around the M dwarf TOI-756: A transiting sub-Neptune and a cold eccentric giant"
 collection: publications
 permalink: /publication/2025-01-01-NIRPS-and-TESS-reveal-a-peculiar-system-around-the-M-dwarf-TOI-756-A-transiting-sub-Neptune-and-a-cold-eccentric-giant
-date: 2025-01-01
+date: 2025-10-01
 venue: 'Astronomy &amp; Astrophysics'
 paperurl: 'http://dx.doi.org/10.1051/0004-6361/202555684'
 authors_short: 'Léna Parc, François Bouchy, Neil J. Cook, Nolan Grieves, Étienne Artigau, et al.'

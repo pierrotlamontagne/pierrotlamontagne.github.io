@@ -2,7 +2,7 @@
 title: "Quantifying thermal water dissociation in the dayside photosphere of WASP-121 b using NIRPS"
 collection: publications
 permalink: /publication/2025-01-01-Quantifying-thermal-water-dissociation-in-the-dayside-photosphere-of-WASP-121-b-using-NIRPS
-date: 2025-01-01
+date: 2025-09-01
 venue: 'Astronomy &amp; Astrophysics'
 paperurl: 'http://dx.doi.org/10.1051/0004-6361/202553724'
 authors_short: 'Luc Bazinet, Romain Allart, Björn Benneke, Stefan Pelletier, ..., Pierrot Lamontagne, et al.'

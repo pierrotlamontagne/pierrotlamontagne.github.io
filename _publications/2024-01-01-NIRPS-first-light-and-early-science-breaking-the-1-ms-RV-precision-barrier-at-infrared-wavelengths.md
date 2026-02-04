@@ -2,7 +2,7 @@
 title: "NIRPS first light and early science: breaking the 1 m/s RV precision barrier at infrared wavelengths"
 collection: publications
 permalink: /publication/2024-01-01-NIRPS-first-light-and-early-science-breaking-the-1-ms-RV-precision-barrier-at-infrared-wavelengths
-date: 2024-01-01
+date: 2024-07-01
 venue: 'Proceedings of SPIE (Ground-based and Airborne Instrumentation for Astronomy X)'
 paperurl: 'http://dx.doi.org/10.1117/12.3018994'
 authors_short: 'Étienne Artigau, François Bouchy, René Doyon, Frédérique Baron, Lison Malo, et al.'

@@ -2,7 +2,7 @@
 title: "Hydride ion continuum hides absorption signatures in the NIRPS near-infrared transmission spectrum of the ultra-hot gas giant WASP-189b"
 collection: publications
 permalink: /publication/2025-01-01-Hydride-ion-continuum-hides-absorption-signatures-in-the-NIRPS-near-infrared-transmission-spectrum-of-the-ultra-hot-gas-giant-WASP-189b
-date: 2025-01-01
+date: 2025-07-01
 venue: 'Astronomy &amp; Astrophysics'
 paperurl: 'http://dx.doi.org/10.1051/0004-6361/202452972'
 authors_short: 'Valentina Vaulato, Stefan Pelletier, David Ehrenreich, Romain Allart, ..., Pierrot Lamontagne, et al.'

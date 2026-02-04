@@ -2,7 +2,7 @@
 title: "Blind search for activity-sensitive lines in the near-infrared using HARPS and NIRPS observations of Proxima and Gl 581"
 collection: publications
 permalink: /publication/2025-01-01-Blind-search-for-activity-sensitive-lines-in-the-near-infrared-using-HARPS-and-NIRPS-observations-of-Proxima-and-Gl-581
-date: 2025-01-01
+date: 2025-08-01
 venue: 'Astronomy &amp; Astrophysics'
 paperurl: 'http://dx.doi.org/10.1051/0004-6361/202555013'
 authors_short: 'João Gomes Silva, Elisa Delgado-Mena, Nuno C. Santos, Telmo Monteiro, ..., Pierrot Lamontagne, et al.'

@@ -1,8 +1,8 @@
 ---
-title: "Diving into the planetary system of Proxima with NIRPS-Breaking the metre per second barrier in the infrared"
+title: "Diving into the planetary system of Proxima with NIRPS: Breaking the metre per second barrier in the infrared"
 collection: publications
 permalink: /publication/2025-01-01-Diving-into-the-planetary-system-of-Proxima-with-NIRPS-Breaking-the-metre-per-second-barrier-in-the-infrared
-date: 2025-01-01
+date: 2025-07-01
 venue: 'Astronomy &amp; Astrophysics'
 paperurl: 'http://dx.doi.org/10.1051/0004-6361/202553728'
 authors_short: 'Alejandro Suárez Mascareño, Étienne Artigau, Lucile Mignon, Xavier Delfosse, ..., Pierrot Lamontagne, et al.'
