@@ -20,7 +20,7 @@ During my undergrad, I also did an internship at iREx in which I worked on the [
 
 If you would like to collaborate, please reach out via [LinkedIn](https://www.linkedin.com/in/pierrot-lamontagne-68a2611b9/) or see my work on [GitHub](https://github.com/pierrotlamontagne/). Selected publications are listed on my [Google Scholar profile](https://scholar.google.com/citations?user=7Tjk43EAAAAJ&hl=fr).
 
-![THIRSTEE logo](/images/THIRSTEE_logo_extended_negative.png)
+![THIRSTEE logo](/images/THIRSTEE_logo_extended.png)
 
 Contact
 ======
