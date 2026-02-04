@@ -31,8 +31,8 @@ author_profile: true
 
 <div style="margin-bottom: 1.8em;">
 <p><strong>2021–2023</strong> — <strong>Astronomy guide and educator.</strong> Sépaq (contract, full-time). Guide-educator at ASTROLab (Mont‑Mégantic), an astronomy outreach centre. Led educational activities for diverse audiences: guided tours, astronomy workshops, multimedia presentations, and night-time sky observations.</p>
-<div style="display: flex; gap: 16px; flex-wrap: wrap; margin-top: 1em;">
-<img src="/images/pierrot_a_lastrolab.jpeg" alt="At ASTROLab, Mont-Mégantic" style="max-width: 100%; height: auto; border: 3px solid #ddd; padding: 6px; background-color: #fff; box-shadow: 0 4px 10px rgba(0,0,0,0.1); border-radius: 6px;">
-<img src="/images/Pierrot_en_uniforme_SEPAQ.png" alt="In Sépaq uniform at ASTROLab" style="max-width: 100%; height: auto; border: 3px solid #ddd; padding: 6px; background-color: #fff; box-shadow: 0 4px 10px rgba(0,0,0,0.1); border-radius: 6px;">
+<div style="display: flex; gap: 16px; flex-wrap: wrap; margin-top: 1em; align-items: flex-start;">
+<img src="/images/pierrot_a_lastrolab.jpeg" alt="At ASTROLab, Mont-Mégantic" style="width: auto; height: auto; max-width: 48%; border: 3px solid #ddd; padding: 6px; background-color: #fff; box-shadow: 0 4px 10px rgba(0,0,0,0.1); border-radius: 6px;">
+<img src="/images/Pierrot_en_uniforme_SEPAQ.png" alt="In Sépaq uniform at ASTROLab" style="width: auto; height: auto; max-width: 48%; border: 3px solid #ddd; padding: 6px; background-color: #fff; box-shadow: 0 4px 10px rgba(0,0,0,0.1); border-radius: 6px;">
 </div>
 </div>
