@@ -4,7 +4,7 @@ permalink: /research/
 author_profile: true
 ---
 
-Welcome! This page gives a **high-school-level tour** of how we find exoplanets with radial velocities and how **stellar activity** can confuse us. Each short animation is paired with a simple idea and a key equation.
+Welcome! This page gives a quick tour of how we find exoplanets with radial velocities and how **stellar activity** can confuse us. I use animations I created with the open-source package [manim](https://www.manim.community/). 
 
 ### 1. Detecting exoplanets with radial velocity
 
