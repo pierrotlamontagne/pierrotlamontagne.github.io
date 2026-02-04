@@ -14,9 +14,11 @@ When a planet orbits a star, **both** move around their common center of mass. T
     Your browser does not support the video tag.
   </video>
   <figcaption style="margin-top: 0.5em; font-size: 0.95em;">
-    - <strong>Left:</strong> the star and its planet orbit their <strong>barycenter</strong>.
-    - <strong>Top-right:</strong> spectral lines shift <strong>left/right</strong> as the star moves <strong>toward/away</strong> from us.
-    - <strong>Bottom-right:</strong> from many spectra taken at different times, we measure a <strong>radial-velocity (RV) curve</strong>.
+    <ul style="margin: 0; padding-left: 1.2em;">
+      <li><strong>Left:</strong> the star and its planet orbit their <strong>barycenter</strong>.</li>
+      <li><strong>Top-right:</strong> spectral lines shift <strong>left/right</strong> as the star moves <strong>toward/away</strong> from us.</li>
+      <li><strong>Bottom-right:</strong> from many spectra taken at different times, we measure a <strong>radial-velocity (RV) curve</strong>.</li>
+    </ul>
   </figcaption>
 </figure>
 
