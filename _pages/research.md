@@ -21,18 +21,16 @@ In the animation:
 - Bottom-right: from many spectra, we measure a **radial-velocity curve**.
 
 If the orbit is nearly circular, the star’s radial velocity can be approximated as
-\[
-v_\star(t) \approx K \sin\!\left(\frac{2\pi t}{P}\right),
-\]
-where:
-- \(P\) is the orbital period,
-- \(K\) is the velocity amplitude (how strong the wobble is).
 
-The Doppler shift of a spectral line with rest wavelength \(\lambda_0\) is
-\[
-\frac{\Delta \lambda}{\lambda_0} \approx \frac{v_\star}{c},
-\]
-so by measuring tiny shifts \(\Delta \lambda\), we infer \(v_\star\) and thus the **planet’s mass**.
+$$v_\star(t) \approx K \sin\!\left(\frac{2\pi t}{P}\right)$$
+where:
+- $P$ is the orbital period,
+- $K$ is the velocity amplitude (how strong the wobble is).
+
+The Doppler shift of a spectral line with rest wavelength $\lambda_0$ is
+
+$$\frac{\Delta \lambda}{\lambda_0} \approx \frac{v_\star}{c}$$
+so by measuring tiny shifts $\Delta \lambda$, we infer $v_\star$ and thus the **planet’s mass**.
 
 ---
 
@@ -65,13 +63,13 @@ Below, the two animations show the same idea with different spot patterns:
 </div>
 
 In both cases, the apparent radial velocity comes from changes in the **centroid** of the distorted spectral line:
-\[
-v_{\text{activity}}(t) \propto
+
+$$v_{\text{activity}}(t) \propto
 \frac{\displaystyle\int \lambda\,[1 - F(\lambda,t)]\,\mathrm{d}\lambda}
      {\displaystyle\int [1 - F(\lambda,t)]\,\mathrm{d}\lambda}
- \;-\; \lambda_0,
-\]
-where \(F(\lambda,t)\) is the line profile at time \(t\). Even without a planet, this can look like a planet-induced RV curve.
+ \;-\; \lambda_0$$
+
+where $F(\lambda,t)$ is the line profile at time $t$. Even without a planet, this can look like a planet-induced RV curve.
 
 ---
 
@@ -91,9 +89,8 @@ In real data, we often see **both** a planet and stellar activity at the same ti
   - a more irregular **activity** curve.
 
 Mathematically, the observed RV is a sum:
-\[
-v_{\text{obs}}(t) = v_{\text{planet}}(t) + v_{\text{activity}}(t) + \text{noise}.
-\]
+
+$$v_{\text{obs}}(t) = v_{\text{planet}}(t) + v_{\text{activity}}(t) + \text{noise}$$
 
 My research focuses on building models that can **separate these pieces**, so we can measure exoplanet masses as cleanly and precisely as possible.
 
