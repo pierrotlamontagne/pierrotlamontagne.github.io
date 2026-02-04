@@ -94,3 +94,5 @@ $$v_{\text{obs}}(t) = v_{\text{planet}}(t) + v_{\text{activity}}(t) + \text{nois
 
 My research focuses on building models that can **separate these pieces**, so we can measure exoplanet masses as cleanly and precisely as possible.
 
+*You can find the animations [here](https://drive.google.com/drive/folders/1E4OUYQf_Xw-Weefa2b0YH3HMtRwvhtdn?usp=sharing)*
+
