@@ -6,8 +6,6 @@ author_profile: true
 
 Welcome! This page gives a quick tour of how we find exoplanets with radial velocities and how **stellar activity** can confuse us. I use animations I created with the open-source package [manim](https://www.manim.community/). 
 
-## Detecting exoplanets with radial velocity
-
 When a planet orbits a star, **both** move around their common center of mass. The star wobbles toward and away from us, making its spectral lines shift due to the **Doppler effect**.
 
 <video autoplay loop muted playsinline style="width: 100%; max-width: 900px; margin: 1.5em auto; display: block; border-radius: 8px;">
@@ -23,8 +21,6 @@ In the animation:
 From the shape and amplitude of this RV curve, we can infer the planet's **mass**, **period** and **eccentricity**. 
 
 ---
-
-### 2. Stellar activity: when starspots fake planets
 
 Stars are not perfect spheres of light. **Dark spots** rotating across the surface change how much light we receive from the approaching vs. receding side. This distorts the spectral line shape and can create RV signals, even with no planet.
 
