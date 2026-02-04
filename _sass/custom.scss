@@ -89,17 +89,17 @@ html:not([data-theme="dark"]) .author__avatar img {
 
 /* THIRSTEE logo theme switching */
 .thirstee-logo-light {
-  display: block;
+  display: block !important;
 }
 
 .thirstee-logo-dark {
-  display: none;
+  display: none !important;
 }
 
 html[data-theme="dark"] .thirstee-logo-light {
-  display: none;
+  display: none !important;
 }
 
 html[data-theme="dark"] .thirstee-logo-dark {
-  display: block;
+  display: block !important;
 }
