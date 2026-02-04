@@ -8,9 +8,26 @@
 
 {% comment %} Decode HTML entities for display (no backslash escapes to avoid GitHub Pages Liquid issues) {% endcomment %}
 {% assign authors_display = post.authors_short | default: post.citation %}
-{% assign authors_display = authors_display | replace: ", ... Pierrot Lamontagne", ", __PLACEHOLDER_DOTS__, Pierrot Lamontagne" %}
-{% assign authors_display = authors_display | replace: "...", "et al." | replace: "others", "et al." %}
-{% assign authors_display = authors_display | replace: "__PLACEHOLDER_DOTS__", "..." %}
+{% comment %} Handle "..." before Pierrot's name: protect it, replace other "...", then restore {% endcomment %}
+{% if authors_display contains "Pierrot Lamontagne" %}
+  {% assign author_parts = authors_display | split: "Pierrot Lamontagne" %}
+  {% if author_parts.size > 1 %}
+    {% comment %} Check if there's ", ..." before Pierrot's name {% endcomment %}
+    {% assign before_name = author_parts[0] %}
+    {% assign after_name = author_parts[1] %}
+    {% if before_name contains ", ..." %}
+      {% assign before_name = before_name | replace: ", ...", ", __KEEP_DOTS__" %}
+    {% endif %}
+    {% assign before_name = before_name | replace: "...", "et al." | replace: "others", "et al." %}
+    {% assign before_name = before_name | replace: "__KEEP_DOTS__", "..." %}
+    {% assign after_name = after_name | replace: "...", "et al." | replace: "others", "et al." %}
+    {% assign authors_display = before_name | append: "Pierrot Lamontagne" | append: after_name %}
+  {% else %}
+    {% assign authors_display = authors_display | replace: "...", "et al." | replace: "others", "et al." %}
+  {% endif %}
+{% else %}
+  {% assign authors_display = authors_display | replace: "...", "et al." | replace: "others", "et al." %}
+{% endif %}
 {% assign authors_display = authors_display | replace: "&amp;", "&" | replace: '&quot;', '"' %}
 {% assign authors_display = authors_display | replace: "{\&apos;e}", "é" | replace: "{\&apos;a}", "á" | replace: "{\&apos;i}", "í" | replace: "{\&apos;o}", "ó" | replace: "{\&apos;u}", "ú" %}
 {% assign authors_display = authors_display | replace: "L{\&apos;e}na", "Léna" | replace: "Fran{\c{c}}ois", "François" | replace: "Ren{\&apos;e}", "René" %}
