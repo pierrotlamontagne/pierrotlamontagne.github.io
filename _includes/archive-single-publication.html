@@ -8,6 +8,7 @@
 
 {% comment %} Decode HTML entities for display (no backslash escapes to avoid GitHub Pages Liquid issues) {% endcomment %}
 {% assign authors_display = post.authors_short | default: post.citation %}
+{% assign authors_display = authors_display | replace: "...", "et al." | replace: "others", "et al." %}
 {% assign authors_display = authors_display | replace: "&amp;", "&" | replace: '&quot;', '"' %}
 {% assign authors_display = authors_display | replace: "{\&apos;e}", "é" | replace: "{\&apos;a}", "á" | replace: "{\&apos;i}", "í" | replace: "{\&apos;o}", "ó" | replace: "{\&apos;u}", "ú" %}
 {% assign authors_display = authors_display | replace: "L{\&apos;e}na", "Léna" | replace: "Fran{\c{c}}ois", "François" | replace: "Ren{\&apos;e}", "René" %}
