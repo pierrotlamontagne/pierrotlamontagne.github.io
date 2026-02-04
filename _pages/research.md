@@ -8,15 +8,17 @@ Welcome! This page gives a quick tour of how we find exoplanets with radial velo
 
 When a planet orbits a star, **both** move around their common center of mass. The star wobbles toward and away from us, making its spectral lines shift due to the **Doppler effect**.
 
-<video autoplay loop muted playsinline style="width: 100%; max-width: 900px; margin: 1.5em auto; display: block; border-radius: 8px;">
-  <source src="/images/RadialVelocityOutreach.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+<figure style="max-width: 900px; margin: 1.5em auto;">
+  <video autoplay loop muted playsinline style="width: 100%; border-radius: 8px; display: block;">
+    <source src="/images/RadialVelocityOutreach.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
   <figcaption style="margin-top: 0.5em; font-size: 0.95em;">
-      - <strong>Left:<strong> the star and its planet orbit their **barycenter**.
-      - <strong>Top-right:<strong> spectral lines shift **left/right** as the star moves **toward/away** from us.
-      - <strong>Bottom-right:<strong> from many spectra taken at different times, we measure a **radial-velocity (RV) curve**.
-    </figcaption>
-</video>
+    - <strong>Left:</strong> the star and its planet orbit their <strong>barycenter</strong>.
+    - <strong>Top-right:</strong> spectral lines shift <strong>left/right</strong> as the star moves <strong>toward/away</strong> from us.
+    - <strong>Bottom-right:</strong> from many spectra taken at different times, we measure a <strong>radial-velocity (RV) curve</strong>.
+  </figcaption>
+</figure>
 
 From the shape and amplitude of this RV curve, we can infer the planet's **mass**, **period** and **eccentricity**. 
 
