@@ -29,8 +29,9 @@ author:
   bio              : "PhD researcher at IAA-CSIC (Granada) studying exoplanets via radial velocities, activity modeling, and planet characterization."
   location         : "Granada, Spain"
   employer         : "IAA-CSIC"
+  employer_url     : "https://www.iaa.csic.es/"
   uri              : "https://pierrotlamontagne.github.io"
-  email            : "pierrot.lamontagne@umontreal.ca"
+  email            : "lamontagne@iaa.es"
 
   # Academic websites
   academia         : # URL
@@ -41,7 +42,7 @@ author:
   orcid            : 
   semantic         : # URL
   ssrn             : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : # URL
   researchgate     : # URL
   scopus           : # URL
   zotero           : # URL
