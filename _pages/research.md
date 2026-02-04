@@ -4,19 +4,19 @@ permalink: /research/
 author_profile: true
 ---
 
-Welcome! This page gives a quick tour of how we find exoplanets with radial velocities and how **stellar activity** can confuse us. I use animations I created with the open-source package [manim](https://www.manim.community/). 
+Welcome! This page gives a quick tour of how we find exoplanets with radial velocities and how stellar activity can confuse us. I use animations I created with the open-source package [manim](https://www.manim.community/). 
 
 When a planet orbits a star, **both** move around their common center of mass. The star wobbles toward and away from us, making its spectral lines shift due to the **Doppler effect**.
 
 <video autoplay loop muted playsinline style="width: 100%; max-width: 900px; margin: 1.5em auto; display: block; border-radius: 8px;">
   <source src="/images/RadialVelocityOutreach.mp4" type="video/mp4">
   Your browser does not support the video tag.
+  <figcaption style="margin-top: 0.5em; font-size: 0.95em;">
+      - <strong>Left:<strong> the star and its planet orbit their **barycenter**.
+      - <strong>Top-right:<strong> spectral lines shift **left/right** as the star moves **toward/away** from us.
+      - <strong>Bottom-right:<strong> from many spectra taken at different times, we measure a **radial-velocity (RV) curve**.
+    </figcaption>
 </video>
-
-In the animation:
-- Left: the star and its planet orbit their **barycenter**.
-- Top-right: spectral lines shift **left/right** as the star moves **toward/away** from us.
-- Bottom-right: from many spectra taken at different times, we measure a **radial-velocity (RV) curve**.
 
 From the shape and amplitude of this RV curve, we can infer the planet's **mass**, **period** and **eccentricity**. 
 
