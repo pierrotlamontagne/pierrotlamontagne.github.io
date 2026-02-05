@@ -196,7 +196,6 @@ exclude:
 keep_files:
   - .git
   - .svn
-  - sitemap.xml
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
@@ -312,7 +311,7 @@ plugins:
   - jekyll-feed
   - jekyll-gist
   - jekyll-paginate
-  # - jekyll-sitemap  # Disabled - using manual sitemap.xml
+  - jekyll-sitemap
   - jekyll-redirect-from
   - jemoji
 
@@ -321,7 +320,7 @@ whitelist:
   - jekyll-feed
   - jekyll-gist
   - jekyll-paginate
-  # - jekyll-sitemap  # Disabled - using manual sitemap.xml
+  - jekyll-sitemap
   - jekyll-redirect-from
   - jemoji
 
