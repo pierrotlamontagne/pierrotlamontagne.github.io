@@ -68,7 +68,7 @@
 
     {% if post.biburl %}
     <p>
-      <a href="{{ base_path }}{{ post.biburl }}" target="_blank" rel="noopener">BibTeX</a>
+      <a href="{{ post.biburl | relative_url }}" target="_blank" rel="noopener">BibTeX</a>
     </p>
     {% endif %}
   </article>
