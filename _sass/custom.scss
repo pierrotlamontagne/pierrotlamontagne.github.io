@@ -87,6 +87,13 @@ html:not([data-theme="dark"]) .author__avatar img {
   color: var(--global-text-color-light);
 }
 
+/* Keep publication BibTeX links above any stretched-link overlays. */
+.archive__item-bibtex,
+.archive__bibtex-link {
+  position: relative;
+  z-index: 2;
+}
+
 /* THIRSTEE logo theme switching */
 .thirstee-logo-light {
   display: block !important;

@@ -67,8 +67,8 @@
     </p>
 
     {% if post.biburl %}
-    <p>
-      <a href="{{ post.biburl | relative_url }}" target="_blank" rel="noopener">BibTeX</a>
+    <p class="archive__item-bibtex">
+      <a class="archive__bibtex-link" href="{{ post.biburl | absolute_url }}" download rel="noopener">BibTeX</a>
     </p>
     {% endif %}
   </article>
