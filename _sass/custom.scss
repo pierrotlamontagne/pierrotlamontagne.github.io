@@ -94,6 +94,11 @@ html:not([data-theme="dark"]) .author__avatar img {
   z-index: 2;
 }
 
+.archive__bibtex-link {
+  pointer-events: auto;
+  display: inline-block;
+}
+
 /* THIRSTEE logo theme switching */
 .thirstee-logo-light {
   display: block !important;
